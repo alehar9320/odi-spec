@@ -1,0 +1,25 @@
+{
+  "name": "odi-spec",
+  "displayName": "Outcome-Driven Innovation Spec",
+  "description": "Strategy-as-code. Define the outcomes as jobs-to-be-done that may then be turned into functional specs that can turn into code. The Product Management overlay on top of specification-driven development.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "jtbd",
+      "aliases": ["Jobs-To-Be-Done", "jtbd"],
+      "extensions": [".jtbd"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "jtbd",
+      "scopeName": "source.jtbd",
+      "path": "./syntaxes/jtbd.tmLanguage.json"
+    }]
+  }
+}
