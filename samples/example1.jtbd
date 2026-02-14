@@ -1,0 +1,20 @@
+Outcome Framework
+
+Job: Hire a reliable contractor
+Outcome: Reduce time-to-hire by 30%
+Importance: 8/10
+Satisfaction: 6/10
+
+# Notes
+- Target small projects first
+- Use platform referrals
+
+// Inline comment style is supported
+
+> "We need someone trustworthy" — Customer quote
+
+Technical: `api.create()` should record applicants
+
+/*
+Block comment: this is a longer note about constraints
+*/
